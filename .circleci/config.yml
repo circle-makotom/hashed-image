@@ -1,0 +1,8 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: archlinux/base@sha256:3ffb8c6ccc966f20047d4cb4bd03f9a1cdf867dbbd433840858127f31062d3b4
+    steps:
+      - run: exit
